@@ -42,7 +42,7 @@
 	content: "";
 	width: 0;
 	height: 0;
-	rotate: 270deg;
+	transform: rotate(270deg);
 	-webkit-transform: rotate(270deg);
 	border-top: 2vh solid red;
 	border-left: 1.5vh solid transparent;
@@ -51,7 +51,7 @@
 .btnMove {
 	position: absolute;
 	right: 20vh;
-	rotate: 180deg;
+	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
 }
 
@@ -85,7 +85,7 @@
 	content: "";
 	width: 0;
 	height: 0;
-	rotate: 270deg;
+	transform: rotate(270deg);
 	-webkit-transform: rotate(270deg);
 	border-top: 2vh solid green;
 	border-left: 1.5vh solid transparent;
@@ -94,7 +94,7 @@
 .btnMove2 {
 	position: absolute;
 	right: 11vh;
-	rotate: 180deg;
+	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
 }
 
@@ -128,7 +128,7 @@
 	content: "";
 	width: 0;
 	height: 0;
-	rotate: 270deg;
+	transform: rotate(270deg);
 	-webkit-transform: rotate(270deg);
 	border-top: 2vh solid blue;
 	border-left: 1.5vh solid transparent;
@@ -137,7 +137,7 @@
 .btnMove3 {
 	position: absolute;
 	right: 2vh;
-	rotate: 180deg;
+	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
 }
 
@@ -157,7 +157,7 @@
 		margin-top: 1.5vh;
 	}
 	#btn::after {
-		rotate: 180deg;
+		transform: rotate(180deg);
 		-webkit-transform: rotate(180deg);
 	}
 	.btnMove {
@@ -176,7 +176,7 @@
 		margin-top: 1.5vh;
 	}
 	#btn2::after {
-		rotate: 180deg;
+		transform: rotate(180deg);
 		-webkit-transform: rotate(180deg);
 	}
 	.btnMove2 {
@@ -195,7 +195,7 @@
 		margin-top: 1.5vh;
 	}
 	#btn3::after {
-		rotate: 180deg;
+		transform: rotate(180deg);
 		-webkit-transform: rotate(180deg);
 	}
 	.btnMove3 {
